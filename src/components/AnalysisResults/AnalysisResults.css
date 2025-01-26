@@ -1,0 +1,99 @@
+.analysis-results {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-results h2 {
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.total-messages {
+    background-color: #f8fafc;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.total-messages-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2563eb;
+    display: block;
+}
+
+.total-messages-label {
+    color: #64748b;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.result-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.category-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.category-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.percentage-value {
+    color: #64748b;
+    font-weight: 500;
+}
+
+.progress-bar-bg {
+    height: 8px;
+    width: 100%;
+    background-color: #f1f5f9;
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.3s ease;
+}
+
+/* Colors for different categories */
+.safe {
+    background-color: #22c55e;
+}
+
+.harassment {
+    background-color: #ef4444;
+}
+
+.discrimination {
+    background-color: #f59e0b;
+}

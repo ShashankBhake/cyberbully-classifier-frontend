@@ -1,0 +1,1 @@
+export { SocialMediaCard } from "./SocialMediaCard";

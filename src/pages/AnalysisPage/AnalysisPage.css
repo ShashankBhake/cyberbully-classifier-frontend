@@ -1,0 +1,38 @@
+.analysis-page {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: auto;
+    background: transparent;
+    color: #646cff;
+    padding: 0.5rem 1rem;
+}
+
+.back-button:hover {
+    background: rgba(100, 108, 255, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .analysis-page {
+        padding: 1rem;
+    }
+
+    .back-button {
+        top: 1rem;
+        left: 1rem;
+    }
+}
